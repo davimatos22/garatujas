@@ -4,19 +4,28 @@
 <head>
   <title>Perfil</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
-      color: rgb(0, 0, 0)
+      background-color: rgb(255, 255, 255); 
+      margin: 0;
     }
     main {
-      background-color :grey;
-      border: 5px solid black;
+      background-color :rgb(255, 255, 255);
+      border: 0px solid rgb(255, 0, 0);
       display: grid;
       grid-template-columns: 350px 5fr;
+      
+    }
+    
+    header {
+      text-align:center;
+      padding:0.5%;
     }
 
     main aside {
-      border: 5px solid rgb(0, 0, 0);
-
+      border: 5px solid grey
     }
 
     main aside .thumb img {
@@ -24,19 +33,20 @@
     }
 
     main>section {
-      border: 5px solid rgb(0, 0, 0);
+      border: 5px solid rgb(111, 111, 111);
       padding: 1em;
     }
 
-    .pinto {
-      border: 10px solid black;              
+    .aleatoria {
+      border: 0px solid rgb(0, 0, 0);              
       padding: 1em;
+      
     }
-
     .galeria {
       display: grid;
       grid-template-columns: repeat(auto-fill, 200px);
     }
+
     .galeria img {
       width: 200px;
       height: 300px;
@@ -47,7 +57,7 @@
 </head>
 
 <body>
-  <header></header>
+  <header><h1>biografia do clarencio</h1></header>
   <main>
     <aside>
       <div class="thumb">
@@ -65,7 +75,7 @@
       </section>
     </aside>
     <section>
-      <div class = "pinto">
+      <div class = "aleatoria">
         <h2>Fotos galeria aleatoria</h2>
         Clarêncio Wendle é o protagonista de 10 anos da série animada "Clarêncio, o Otimista" (2014) do Cartoon Network.
         Conhecido por sua personalidade extremamente alegre, imaginativa e amigável, ele vê o melhor em todas as situações
@@ -98,5 +108,4 @@
     </section>
   </main>
 </body>
-
 </html>
