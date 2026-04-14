@@ -2,32 +2,67 @@
  <html>
     <head>
         <title>Cadastro page</title>
-    
+     <style>
+       body {
+          margin: 0%;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+       }
+        
+       .campo {
+            width: 100%;
+           margin-bottom: 10px;
+       }
+
+       input {
+        width: 100%;
+        padding: 8px;
+        border-radius: 8px;
+        border: 3px solid rgb(0, 0, 0);
+       }
+
+       button {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: rgb(151, 151, 151);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        font-weight: bold;
+        margin-top: 15px;
+       }
+
+     </style>
 
     </head>
     <body>
+
         <form method="get">
-            <div>
-                <label for="inp-nome">Nome</label>
-                <input placeholder="digite seu primeiro nome " type="text" name="nome" id="inp-nome">
+            <div class="campo">
+                <label for="inp-nome"><strong>Nome</strong></label>
+                <input placeholder="Digite seu primeiro nome " type="text" name="nome" id="inp-nome">
             </div>
-            <div>
-                <label for="inp-sobrenomecompleto">Sobrenome-completo</label>
+            <div class="campo">
+                <label for="inp-sobrenomecompleto"><strong>Sobrenome completo</strong></label>
                 <input placeholder="Digite seu sobrenome completo" type="text" name="sobrenomecompleto">
             </div>
-            <div>
-                <label for="inp-usuário">Usuário</label>
+            <div class="campo">
+                <label for="inp-usuário"><strong>Usuário</strong></label>
                 <input placeholder="Crie o seu nome de Usuário" type="text name="usuário" id="inp-usuário">
             </div>
-            <div>
-                <label for="ino-senha">Senha</label>
-                <input type="password" name="senha" id="inp-nome">
+            <div class="campo">
+                <label for="inp-senha"><strong>Senha</strong></label>
+                <input placeholder="Crie uma senha" type="password" name="senha" id="inp-senha">
             </div>
-            <div>
-                <label for="inp-confirmesenha">Confirme a sua senha</label>
-                <input type="password" name="confirmesenha">
+            <div class="campo">
+                <label for="inp-confirmesenha"><strong>Confirme a sua senha</strong></label>
+                <input placeholder="Confirme a sua senha"ype="password" name="confirmesenha" id="inp-confirmesenha">
             </div>
-            <button><strong>Cadastre-se</strong></button>
+            <div class="campo">
+                <button>Cadastre-se</button> 
+            </div>
         </form>
     </body>
  </html>
