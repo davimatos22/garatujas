@@ -11,9 +11,14 @@
           align-items: center;
        }
         
+        main {
+            display: inline-block;
+            width: 40%;
+            border: 5px solid grey;
+        }
        .campo {
             width: 100%;
-           margin-bottom: 10px;
+            margin-bottom: 1px;
        }
 
        input {
@@ -24,7 +29,7 @@
        }
 
        button {
-        width: 100%;
+        width: 106%;
         padding: 10px;
         border-radius: 5px;
         background-color: rgb(151, 151, 151);
@@ -32,37 +37,39 @@
         cursor: pointer;
         font-weight: bold;
         margin-top: 15px;
+
        }
 
      </style>
 
     </head>
     <body>
-
-        <form method="get">
-            <div class="campo">
+        <main>
+            <form action="" method="get">
+                <div class="campo">
                 <label for="inp-nome"><strong>Nome</strong></label>
                 <input placeholder="Digite seu primeiro nome " type="text" name="nome" id="inp-nome">
-            </div>
-            <div class="campo">
+                </div>
+                <div class="campo">
                 <label for="inp-sobrenomecompleto"><strong>Sobrenome completo</strong></label>
                 <input placeholder="Digite seu sobrenome completo" type="text" name="sobrenomecompleto">
-            </div>
-            <div class="campo">
+                </div>
+                <div class="campo">
                 <label for="inp-usuário"><strong>Usuário</strong></label>
                 <input placeholder="Crie o seu nome de Usuário" type="text name="usuário" id="inp-usuário">
-            </div>
-            <div class="campo">
+                </div>
+                <div class="campo">
                 <label for="inp-senha"><strong>Senha</strong></label>
                 <input placeholder="Crie uma senha" type="password" name="senha" id="inp-senha">
-            </div>
-            <div class="campo">
+                </div>
+                <div class="campo">
                 <label for="inp-confirmesenha"><strong>Confirme a sua senha</strong></label>
                 <input placeholder="Confirme a sua senha"ype="password" name="confirmesenha" id="inp-confirmesenha">
-            </div>
-            <div class="campo">
+                </div>
+                <div class="campo">
                 <button>Cadastre-se</button> 
             </div>
-        </form>
+            </form>
+        </main>
     </body>
  </html>
