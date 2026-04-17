@@ -3,18 +3,32 @@
     <head>
         <title>Cadastro page</title>
      <style>
+            * {
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              }  
+
        body {
           margin: 0%;
           height: 100vh;
           display: flex;
           justify-content: center;
           align-items: center;
+          background-color: #f0f2f5; 
+          overflow: hidden;         
+          position: relative;
+          
        }
         
         main {
             display: inline-block;
             width: 40%;
-            border: 5px solid grey;
+            max-width: 400px;
+            border: 2px solid rgb(0, 0, 0);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(135deg, #809dc7 0%, #617ba8 100%);
         }
        .campo {
             width: 100%;
@@ -25,27 +39,32 @@
         width: 100%;
         padding: 8px;
         border-radius: 8px;
-        border: 3px solid rgb(0, 0, 0);
+        border: 2px solid rgb(0, 0, 0);
        }
 
        button {
-        width: 106%;
+        width: 100%;
         padding: 10px;
         border-radius: 5px;
-        background-color: rgb(151, 151, 151);
-        color: rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         cursor: pointer;
         font-weight: bold;
         margin-top: 15px;
-
+        box-shadow: 5px;
        }
-
+       
+       h1 {
+        width: 100%;
+        align-items: center;
+       }
      </style>
 
     </head>
     <body>
         <main>
-            <form action="" method="get">
+            <h1>Cadastre-se para continuar.</h1>
+            <form method="get">
                 <div class="campo">
                 <label for="inp-nome"><strong>Nome</strong></label>
                 <input placeholder="Digite seu primeiro nome " type="text" name="nome" id="inp-nome">
@@ -64,7 +83,7 @@
                 </div>
                 <div class="campo">
                 <label for="inp-confirmesenha"><strong>Confirme a sua senha</strong></label>
-                <input placeholder="Confirme a sua senha"ype="password" name="confirmesenha" id="inp-confirmesenha">
+                <input placeholder="Confirme a sua senha"type="password" name="confirmesenha" id="inp-confirmesenha">
                 </div>
                 <div class="campo">
                 <button>Cadastre-se</button> 
