@@ -199,4 +199,3 @@ A melhor forma de aprender é **praticando**:
 
 ---
 
-Na próxima aula, você vai colocar tudo isso em prática criando sua própria página. 
