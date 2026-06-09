@@ -4,7 +4,7 @@
 
 Primeiros passos em web design
 
-raw markdown
+
 
 # 📓 Garatujas
 
@@ -22,10 +22,10 @@ sem pretensão de perfeição, mas com muito propósito.
 
 ## O que você vai encontrar aqui
 
-- Primeiros projetos e experimentos com web design
-- Estudos de HTML e CSS
-- Layouts, componentes e páginas criadas do zero
-- Evolução visível — do mais básico ao menos básico 😄
+- Primeiros projetos e experimentos com web design;
+- Estudos de HTML e CSS;
+- Layouts, componentes e páginas criadas do zero;
+- Evolução visível — do mais básico ao menos básico.
 
 ## Status
 
